@@ -59,11 +59,13 @@ export const DashboardLayout: React.FC<DashboardLayoutProps> = ({ config, onLogo
     <div className="min-h-screen bg-[#050505] text-white flex flex-col">
       {/* Top Navbar */}
       <nav className="w-full h-16 border-b border-brand-border bg-[#050505] flex items-center justify-between px-6 sticky top-0 z-50">
-         <div className="flex items-center gap-2 text-white text-lg font-bold tracking-tight">
-          <div className="w-8 h-8 rounded-full bg-brand-yellow flex items-center justify-center text-black">
-            <DollarSign size={20} strokeWidth={3} />
-          </div>
-          <span>SyncOne</span>
+        <div className="flex items-center gap-2 text-white text-xl font-bold tracking-tight">
+          <img
+            src="/image.png"
+            alt="ZyncOne Logo"
+            className="h-18 w-auto object-contain"
+          />
+          <span>ZyncOne</span>
         </div>
 
         <div className="flex items-center gap-6">

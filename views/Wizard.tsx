@@ -169,10 +169,14 @@ export const Wizard: React.FC<WizardProps> = ({ onComplete, onCancel }) => {
     <div className="min-h-screen bg-[#050505] text-white flex flex-col">
       <nav className="w-full py-6 px-12 flex items-center justify-between border-b border-brand-border">
          <button onClick={onCancel} className="flex items-center gap-2 text-white text-xl font-bold tracking-tight">
-          <div className="w-8 h-8 rounded-full bg-brand-yellow flex items-center justify-center text-black">
-            <DollarSign size={20} strokeWidth={3} />
-          </div>
-          <span>SyncOne</span>
+        <div className="flex items-center gap-2 text-white text-xl font-bold tracking-tight">
+          <img
+            src="/image.png"
+            alt="ZyncOne Logo"
+            className="h-18 w-auto object-contain"
+          />
+        </div>
+        <span>ZyncOne</span>
         </button>
         <div className="flex items-center gap-8">
             <a href="#" className="text-gray-400 hover:text-white text-sm">Features</a>
